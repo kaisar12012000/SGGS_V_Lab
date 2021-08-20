@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Teacher's Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        
+        <nav>
+            <a href="index.html"><img src="imagess/11.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas-fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="labs.html">LABS</a></li>
+                    <li><a href="dashboard.html">ARE YOU TEACHER?</a></li>
+                </ul>
+                
+            </div>
+            <i class="fas-fa-bars" onclick="showmenu()"></i> 
+                
+        </nav>
+    <div class="top">
+        <h1>Teacher's Dashboard</h1>
+        <h3>This is the portal where teacher can add/modify their Labs</h3>
+        <div class="top-2">
+            <div class="left-part">
+            <h3>Data of Experiment</h3>
+            <form>
+                <div class="input-row">
+                <label for="Inputselect">Acdemic Year</label>
+                <select class="form-control" >
+                <option>First</option>
+                <option>Second</option>
+                <option>Third</option>
+                <option>Final</option>
+                </select>
+                </div>
+                <div class="input-row">
+                <label for="Inputselect">Subject</label>
+                <select class="form-control" >
+                <option>HT</option>
+                <option>DME</option>
+                <option>DOM</option>
+                <option>MP-2</option>
+                </select>
+                </div>
+                <div class="input-row">
+                <label for="Inputselect">Experiment No.</label>
+                <select class="form-control" >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                </select>
+                </div>
+
+                <div class="input-row">
+                </div>
+                <label>Experiment Name</label>
+                <textarea rows="2"></textarea>
+                <div class="input-row">
+                </div>
+                <label>Objective</label>
+                <textarea rows="2"></textarea>
+                <div class="input-row">
+                </div>
+                <label>Apparatus</label>
+                <textarea rows="3"></textarea>
+                <div class="input-row">
+                </div>
+                <label>Procedure</label>
+                <textarea rows="6"></textarea>
+                <div class="input-row">
+                </div>
+                <form action="form_input" class="form">
+                    <input type="file" id="form_input" class ="form_input">
+                    <img src="" alt="" class="form_icon">
+                    <span class="form_text"></span>
+                </form>
+                <label>Observation</label>
+                <textarea rows="4"></textarea>
+                <div class="input-row">
+                </div>
+                <form>
+                    <div class="input-row">
+                        <input type="file" name="Upload">
+                    </div>
+                </form>
+                <label>Calculations</label>
+                <textarea rows="4"></textarea>
+                <div class="input-row">
+                </div>
+                <label>Conclusion</label>
+                <textarea rows="2"></textarea>
+                <button type="submit">Upload Lab</button>
+                
+            </form>
+        
+        </div>
+        <div class="right-part">
+            <h3>Faculty Profile</h3>
+            <div class="card">      
+                <h1>Anil Kadam</h1>
+                <h2>Teacher</h2>
+                <p>Heat Transfer</p>
+                
+                    
+        </div>
+        <div class="btn">
+        <p><button>Your Labs</button></p>
+        <p><button>Logout</button></p>
+</a>
+        </div>
+    </div>
+
+
+</body>
+</html>
