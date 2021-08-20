@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+	s2.innerHTML = "";
+	if(s1.value == "first"){
+		var optionArray = ["|","Physics|Engineering Physics","Drawing|Engineering Drawing","chemistry|Engineering chemistry","BEE| Basic electrical engineering"];
+	}else if(s1.value == "second"){
+		var optionArray = ["|","SOM|Strength of materials","TD|Thermodynamics","MP-I|Manufacturing process-1","ME|Materials Enineering","E-I|Engineering Instrumentation","ATD|Applied Thermodynamics","MDcad|Machine Drawing","KTOM|Kinectic Theory of Machines"];
+	}else if(s1.value == "third"){
+		var optionArray = ["|","HT|Heat Transfer","DME| Design of Machine Elements","DOM|Dynamics of Machine","MP-II|Manufacturing process II","MD|Machine Design","RFAC|Refrigenration and Air Conditioning","Auto|Automation in Engineering"];
+	}else if(s1.value == "final"){
+		var optionArray = ["|","PLM-F|PLM Fundamentals",""];
+	}
+    for(var option in optionArray){
+		var pair = optionArray[option].split("|");
+		var newOption = document.createElement("option");
+		newOption.value = pair[0];
+		newOption.innerHTML = pair[1];
+		s2.options.add(newOption);
+	}
+}
+</script>
+<style>
+    body{
+        background-color: rgba(13, 122, 95, 0.712);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    select{
+        font-family: Arial, Helvetica, sans-serif;
+        col
+    }
+</style>
+</head>
+<body>
+<h2>Choose Year: </h2>
+<hr />
+Choose Year:
+<select id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
+    <option value=""></option>
+    <option value="first">First</option>
+    <option value="second">Second</option>
+    <option value="third">Third</option>
+    <option value="final">Final</option>
+</select>
+
+<hr />
+Choose Course:
+<select id="slct2" name="slct2"></select>
+<hr />
+<h1>*note: No clarity about final year subjects please suggets.</h1>
+css can be changed accordingly.
+</body>
+</html>
