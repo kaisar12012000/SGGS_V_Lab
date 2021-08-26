@@ -1,0 +1,11 @@
+About Section:
+      We are a team of students behind working and execution of virtual labs of our college SGGSIET, Nanded. In the preface we got idea of doing it just to visualize our academics with a better perspective and practically. By deploying our interests we have created the UI of our web front user friendly to for Teachers and students as well. By creating a teacher's Dashboard , now teacher can post any type of content of his/her choice and review the feedback from students as well. Along with UI in the acedemic side we have provided the option of quiz and observation in form of graph to get a better view of the explored chapter. We could all execute this out because of the guidance provided by the faculties of several departments.
+
+Faculty's Quotes section:
+1) "Doing work with utmost exitement is the best result of your effort."
+2)" Working on idea and working with idea are two things with distinct meanings"
+3)" Studying does not mean to gain marks but to dive deep in the realm of knowledge"
+4)"Priorities are the certain things that can make or mar a person"
+5)"Your vigouros  study for hours is less meaningful if you can't deploy it practical knowledge."
+6)"If you can't work with new technologies maybe you lack in technical education"
+7)"Engineering means fun while studying and innovating while learning"
