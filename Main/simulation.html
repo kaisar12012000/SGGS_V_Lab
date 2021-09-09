@@ -24,6 +24,12 @@
             justify-content: center;
             margin-top: 100px;
         }
+        #first_comment,
+        #second_comment,
+        #third_comment,
+        #final_comment {
+            display: none;
+        }
         .blink {
           animation: blink-animation 1s steps(5, start) infinite;
           -webkit-animation: blink-animation 1s steps(5, start) infinite;
@@ -37,6 +43,26 @@
           to {
             visibility: hidden;
           }
+        }
+        #arrow {
+            position: relative;
+            animation: mymove 3s infinite;
+        }
+        @keyframes mymove {
+            from {left: 0px;}
+            to {left: 200px}
+        }
+        #arrow {
+            width: 200px;
+            height: 100px;
+            display: none;
+        }
+        #desc {
+            display: none;
+        }
+        #on,
+        #off {
+            display: none;
         }
     </style>
 </head>
@@ -70,6 +96,13 @@
         <img id="blower" src="assets/images/blower.png" alt="blower">
         <img src="assets/images/rest.PNG" alt="rest" id="rest">
     </div>
+    <div>
+        <center><img id="arrow" class="mymove" src="assets/images/arrow.png" alt="arrow"></center>
+    </div>
+    <div id="desc">
+        <p><center>Take the reading of the inlet temperature at 9 and the outlet temperature at 10<br>
+        The arrow indicates that the air is flowing.</center></p>
+    </div>
 </body>
 <script>
     document.getElementById('start').onclick = ()=>{
@@ -91,6 +124,8 @@
         document.getElementById('first_comment').style.display = 'none';
         document.getElementById('second_comment').style.display = 'none';
         document.getElementById('third_comment').style.display = 'block';
+        document.getElementById('on').style.display = 'block';
+        document.getElementById('off').style.display = 'block';
         document.getElementById('final_comment').style.display = 'none';
     }
     document.getElementById('on').onclick = ()=>{
@@ -100,6 +135,8 @@
         document.getElementById('third_comment').style.display = 'none';
         document.getElementById('final_comment').style.display = 'block';
         document.getElementById('blower').classList.add('blink');
+        document.getElementById('arrow').style.display = "block";
+        document.getElementById('desc').style.display = 'block';
     }
     document.getElementById('off').onclick = ()=>{
         document.getElementById('start').style.display = 'block';
@@ -108,6 +145,10 @@
         document.getElementById('third_comment').style.display = 'none';
         document.getElementById('final_comment').style.display = 'none';
         document.getElementById('blower').classList.remove('blink');
+        document.getElementById('arrow').style.display = "none";
+        document.getElementById('desc').style.display = 'none';
+        document.getElementById('on').style.display = 'none';
+        document.getElementById('off').style.display = 'none';        
     }
     // document.getElementById('blower').onclick = ()=> {
     //     console.log('you clicked on the blower')
