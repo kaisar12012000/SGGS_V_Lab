@@ -10,10 +10,14 @@
     <!--Scripts for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+      .teachers_posts {
+        margin-top: 10px;
+        border: 2px #ddd solid;
+        padding: 20px
+      }
+    </style>
     <title>Teacher's Dashbord</title>
-    <link rel = "icon" href = 
-    "assets/images/sggs.png" 
-            type = "image/x-icon">
 </head>
 <body>
     <nav style="max-width: 100%;" class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -39,7 +43,7 @@
                 </ul>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link active" href="index.html" tabindex="-1" aria-disabled="true">Logout</a>
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Logout</a>
               </li>
             </ul>
             <!--<form class="d-flex">
@@ -65,18 +69,18 @@
                 <li><a class="dropdown-item" href="course.html">Lab-4</a></li>
                 </ul>
                 <a class="btn btn-primary dropdown-toggle m-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Select Experiment
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="course.html">Experiment 1</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 2</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 3</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 4</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 5</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 6</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 7</a></li>
-                <li><a class="dropdown-item" href="course.html">Experiment 8</a></li>
-                </ul>
+                  Select Experiment
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="course.html">Experiment 1</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 2</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 3</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 4</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 5</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 6</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 7</a></li>
+                  <li><a class="dropdown-item" href="course.html">Experiment 8</a></li>
+                  </ul>
             </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -89,18 +93,47 @@
             </form>
             </div>
         </div>
-        <footer style="margin-top: 60px; height: 190px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-          <div>
-              <center><span class="fs-3">With Love From SGGSIE&T</span><br>
-              <hr></center>
-              <center>
-                <p class="fs-6">
-                  &copy; Copyright 2021 <br> All rights are reserved by SGGSIE&T, Vishnupuri, Nanded, Maharashtra.<br>
-              </center>
-              </p>
+        <br><br>
+        <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <center><b><span class="display-5">Your posts</span></b></center><br>
+          <div class="teachers_posts col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <span class="fs-2">Subject name</span><br>
+            <span class="fs-4"><a href="#">Latest link</a></span><br>
+            <span class="fs-5">Posted on</span>
           </div>
-          
-      </footer>
+        </div>
+        <footer style="margin-top: 100px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <span class="fs-3">SGGSV-Lab</span><br>
+                <hr>
+                <p class="fs-6">
+                    &copy; Copyright. All rights are reserved by SGGSIE&T, Vishnupuri, Nanded, Maharashtra.<br>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <span class="fs-3">Created by:</span><br>
+              <hr>
+              <ul style="list-style: none;">
+                  <li>Yash Raut (Mechanical)</li>
+                  <li>Suyog Moon (Mechanical)</li>
+                  <li>Vedant Totla (Mechanical)</li>
+                  <li>Irshaduddin Chowdhury (Mechanical)</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <span class="fs-3">Contact us:</span><br>
+              <hr>
+              <p class="fs-6">
+                  Visist our site: <a href="https://onlinesggs.org/">Online SGGS</a><br>
+                  Mail us at: yvjoshi@sggs.ac.in<br>
+                  Call us on: +91 1234567890, +91 9876543210<br>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+              </p>
+            </div>
+        </footer>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="assets/scripts/dashboard.js"></script>
