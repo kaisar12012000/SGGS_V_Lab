@@ -28,7 +28,7 @@ nav a {
 }
 
 .banner {
-    background-image: url("../images/banner.png");
+    background-image: url("../images/fix.png");
     /* background-image: linear-gradient((0,0,0,0.6),(0,0,0,0.3)), url("//assets/images/sggs.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ article {
 }
 footer {
     margin-top: 100px;
-    padding: 40px 12px;
+    padding: 10px 6px;
     background-color: #185ADB;
     color: #fff;
 }
