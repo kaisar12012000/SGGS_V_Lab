@@ -43,20 +43,9 @@ section {
     background-color: #185ADB;
     color: #fff;
     padding: 40px 12px;
-
 }
-.frontimg{
-    float: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 40px;
-
-}
-
-
-
 article {
-    margin-top: 10px;
+    margin-top: 80px;
 }
 .blog {
     margin-top: 70px;
