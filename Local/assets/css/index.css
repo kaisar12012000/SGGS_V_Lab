@@ -34,7 +34,7 @@ nav a {
     background-repeat: no-repeat;
 }
 .banner .container {
-    padding-top: 40vh;
+    padding-top: 34vh;
     padding-bottom: 40vh;
     /* color: #56cd93; */
     
@@ -50,19 +50,19 @@ article {
 .blog {
     margin-top: 70px;
 }
-.blog div div {
+/* .blog div div {
     border: 2px solid #185ADB;
-}
+} */
 .blog div div:hover {
     transition-property: all;
     transition-duration: 0.65s;
-    background-color: #185ADB;
-    color: #fff;
+    /* background-color: #185ADB; */
+    /* color: #fff; */
 }
 footer {
     margin-top: 100px;
     padding: 10px 6px;
-    background-color: #185ADB;
+    background-color: #111;
     color: #fff;
 }
 footer div a {
