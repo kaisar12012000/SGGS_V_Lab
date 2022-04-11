@@ -23,3 +23,14 @@ document.getElementById('getStarted').onclick= function(){
     y.style.display = "none";
     z.style.display = "none";
 };
+
+// typing animation script
+
+
+
+var typed = new Typed(".typing",{
+    strings: ["Welcome", "To","The","Virtual", "Labs", "Of", "SGGSIE&T"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});

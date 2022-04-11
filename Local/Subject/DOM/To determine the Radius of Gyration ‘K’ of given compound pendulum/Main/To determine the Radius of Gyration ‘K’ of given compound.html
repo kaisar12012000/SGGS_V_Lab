@@ -1,5 +1,3 @@
-  
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +11,8 @@
     <!--Scripts for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>To determine the Radius of Gyration ‘K’ of given compound pendulum and To verify the relation</title>
     <link rel = "icon" href = 
     "assets/images/sggs.png" 
@@ -31,24 +31,23 @@
 <body>
   <nav style="max-width: 100%;" class="navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">SGGSV-Lab</a>
+      <a class="navbar-brand" href="\Local\index.html">Virtual Labs</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Select Lab
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="course.html">Heat transfer</a></li>
-              <li><a class="dropdown-item" href="course.html">Manufacturing processes 2</a></li>
-              <li><a class="dropdown-item" href="course.html">Dynamics of Machines (DOM)</a></li>
-              <li><a class="dropdown-item" href="course.html">Design of Machine (DME)</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Dynamics Of Machine</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Heat Transfer</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Thermodynamics</a></li>
               <!-- <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li> -->
             </ul>
@@ -78,11 +77,11 @@
 <br>
   <center><span class="fs-3"><i>Dynamics Of Machine</i><br>Experiment No. 02</br></span></center><hr>
   <article id="intro_and_pro" class="subsection container">
-      <center><span class="fs-3"><i>To determine the Radius of Gyration ‘K’ of given compound pendulum and To verify the relation</i></span><br>
+      <center><span class="fs-3"><i>To determine the Radius of Gyration ‘K’ of given compound pendulum and To verify the relation <br><h4>\(T = 2π * \sqrt{(k^2+(OG)^2)/g*(OG)}\)</h4> </i></span>
       <hr></center>
       <p class="fs-6">
         <h4><b>Introduction of Experiment :</b></h4>
-        <h6>xyz</h6><hr>
+        <h6>In this experiment we will study about what is radius of gyration and and how to find radius of gyration for a compund pendulum and varify the given relation. <br><br> \(T = 2π * \sqrt{(k^2+(OG)^2)/g*(OG)}\)<br> Where, <br> T = Periodic time on sec <br>K = Radius of gyration about C.G. in cm <br> OG = Distance of C.G. of rod from support <br> L = Length of suspended pendulum</h6><hr>
 
             
         <h4><b>Apparatus :</b></h4>
@@ -318,42 +317,30 @@
     </p> -->
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDxAb-A0-W3JpTAvvogpeO8z2zTuvgp69AUFXDhvy0Zu1tiQ/viewform?embedded=true" width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </article>
-  <footer style="margin-top: 100px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <center><span class="fs-3"><b>V-Labs SGGSIE&T</b></span></center>
-        <hr>
-        <center><p class="fs-6">
-          &copy; Copyright @2020-21<br> All rights are reserved by SGGSIE&T,<br>Vishnupuri, Nanded, Maharashtra.<br>
-          <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-      </p></center>
+  <footer class="p-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="footer-heading"><a href="#" class="logo">Virtaul Labs SGGSIE&T</a></h2>
+                <p class="menu">
+                    <a href="#" class="p-2">Home |</a>
+                    <a href="#" class="p-2">About |</a>
+                    <a href="#" class="p-2">Labs |</a>
+                    <a href="#" class="p-2">Support |</a>
+                    <a href="#" class="p-2">Contact |</a><br>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a></p>
+                    <p>Copyright &copy; 2022 | Yash Raut | Suyog Moon 
+                      <br>Department of Mechanical Enginnering | SGGSIE&T, Nanded</p>
+            </div>
+        </div>
+        
+            </div>
+        </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <center><span class="fs-3"><b>Created By</b></span></center>
-      <hr>
-      <center><ul style="list-style: none;">
-        <li>Yash Raut</li>
-        <li>Suyog Moon</li>
-        <li>Vedant Totla</li>
-        <li>Irshaduddin Chowdhury</li>
-    </ul></center>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <center><span class="fs-3"><b>Contact Us</b></span></center>
-      <hr>
-      <center><p class="fs-6">
-        Support Mail: V-Labs@sggs.ac.in<br>
-        Call us on: 1234567890<br>
-        <br>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </p></center>
-    </div>
-  </footer>
+</footer>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="assets/scripts/experiment.js"></script>

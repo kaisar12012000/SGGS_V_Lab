@@ -1,5 +1,5 @@
 nav {
-    background-color: #185ADB;
+    background-color: #000000;
 }
 
 nav a {
@@ -62,7 +62,7 @@ article {
 footer {
     margin-top: 100px;
     padding: 10px 6px;
-    background-color: #185ADB;
+    background-color: #000000;
     color: #fff;
 }
 footer div a {

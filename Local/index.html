@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <!--Scripts for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     
-    <title>My Virtual Lab</title>
+    <title>Virtual Lab | Home</title>
     <link rel = "icon" href = 
     "assets/images/sggs.png" 
             type = "image/x-icon">
@@ -57,7 +58,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <!-- <img src="assets/images/fix.png" class="img-responsive" width="10px" height="10px" alt=""> -->
-          <a class="navbar-brand" href="index.html">V-Lab</a>
+          <a class="navbar-brand" href="index.html">Virtual Labs</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,13 +71,11 @@
                 <a class="nav-link" id="hit" href="#">How it works</a>
               </li> -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Select Lab
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Select Lab</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="domcourse.html">Dynamics Of Machine</a></li>
-                  <li><a class="dropdown-item" href="course.html">Heat Transfer</a></li>
-                  <li><a class="dropdown-item" href="course.html">Thermodynamics</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Heat Transfer</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Thermodynamics</a></li>
                   <!-- <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                 </ul>
@@ -110,11 +109,12 @@
       
       <div class="banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="text-center container">
-            <div style="border-radius: 12px; padding: 50px auto 50px; color:rgb(250, 152, 61)">
-                <b><span style="font-weight: 400; "class="display-2">Welcome To The Virtual Labs Of SGGSIE&T</span><br>
+            <div style="border-radius: 12px; padding: 50px auto 50px; color:rgb(241, 245, 46)">
+                <br><br><b><span style="font-weight: 400; "class="display-2">Welcome To The Virtual Labs Of SGGSIE&T</span>
+                  <br><h2>(Department of Mechanical Enginnering)</h2>
                   <br></b>
                 </div>
-                <button class="btn btn-outline-primary px-4 button"> <a href="#new" style="color: #fff; padding: 10px; font-size: 20px;">Explore</a></button>
+                <button class="btn btn-outline-primary px-4 button"> <a href="#new" style="color: #fff; padding: 10px; font-size: 20px;">Let's Explore</a></button>
         </div>
       </div>
      
@@ -149,40 +149,103 @@
                <center><img class="campus-col-img" src="assets/images/software.png" alt="image1"><br>
                  <span class="fs-4 p-5 m-3"><b>Frequent Updates</b></span></center>
              </div>
-           </div>
-       </div>
-     </div>
+             <hr style="height: 2px; background-color: rgb(24,90,219);">
+           
       
-     <hr style="height: 2px; background-color: rgb(24,90,219);">
+    
+     <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <!-- <center><span class="display-4">A word from the professors.</span></center><br> -->
+        <div class="container pb-5">
+          <center><span class="display-3 text-center" style="margin-bottom: 50px;"><b>Words of Wisdom</b></span>
+            
+            <hr style="height: 2px; background-color: rgb(24,90,219);">
+            <!-- testimonials carousel  -->
+            <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active h-100">
+                  <p class = "text-center fw-bold">Pro. R.P. Parvekar</p>
+                  <p class = "text-center">Head | Department of Mechanical Engineering</p>
+                  <p class = "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo nam, nobis quas autem dolorem provident accusamus voluptates consequatur debitis dolores at quam voluptatum rerum rem perspiciatis, numquam, similique aliquam.</p>
+                </div>
+                <div class="carousel-item h-100">
+                  <p class = "text-center fw-bold">Dr. Y. V. Joshi</p>
+                  <p class = "text-center">Director | SGGSIE&T</p>
+                  <p class = "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit est, sint qui hic vitae molestiae blanditiis illo! Laudantium quidem porro corrupti minus, suscipit maxime? Aliquid laudantium temporibus accusantium modi.</p>
+                </div>
+                <div class="carousel-item h-100">
+                  <p class = "text-center fw-bold">Prof. D. T. Mehta</p>
+                  <p class = "text-center">Faculty | Department of Mechanical Engineering</p>
+                  <p class = "text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci beatae voluptatem ab explicabo dignissimos? Nihil hic quidem doloremque. Laboriosam tenetur tempore neque expedita atque earum deleniti cum beatae sequi labore?</p>
+                </div>
+                <div class="carousel-item h-100">
+                  <p class = "text-center fw-bold">Dr. A. R. Kadam</p>
+                  <p class = "text-center">Faculty | Department of Mechanical Engineering</p>
+                  <p class = "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit est, sint qui hic vitae molestiae blanditiis illo! Laudantium quidem porro corrupti minus, suscipit maxime? Aliquid laudantium temporibus accusantium modi.</p>
+                </div>
+              </div>
+            </div>
+            <hr style="height: 2px; background-color: rgb(24,90,219);">
+            <!-- testimonials carousel ends  -->
+          </div>
+      </article>
+     <div class="container pb-5">
+      <center><span class="display-3 text-center" style="margin-bottom: 50px;"><b>Testimonials</b></span>
+      <hr style="height: 2px; background-color: rgb(24,90,219);">
+      <!-- testimonials carousel  -->
+      <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active h-100">
+            <p class = "text-center fw-bold">SGGSEI&T</p>
+            <p class = "text-center">Nanded, Maharashtra</p>
+            <p class = "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo nam, nobis quas autem dolorem provident accusamus voluptates consequatur debitis dolores at quam voluptatum rerum rem perspiciatis, numquam, similique aliquam.</p>
+          </div>
+          <div class="carousel-item h-100">
+            <p class = "text-center fw-bold">IITB</p>
+            <p class = "text-center">Mumbai, Maharashtra</p>
+            <p class = "text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci beatae voluptatem ab explicabo dignissimos? Nihil hic quidem doloremque. Laboriosam tenetur tempore neque expedita atque earum deleniti cum beatae sequi labore?</p>
+          </div>
+          <div class="carousel-item h-100">
+            <p class = "text-center fw-bold">COEP</p>
+            <p class = "text-center">Pune, Maharastra</p>
+            <p class = "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit est, sint qui hic vitae molestiae blanditiis illo! Laudantium quidem porro corrupti minus, suscipit maxime? Aliquid laudantium temporibus accusantium modi.</p>
+          </div>
+        </div>
+      </div>
+      <hr style="height: 2px; background-color: rgb(24,90,219);">
+      <!-- testimonials carousel ends  -->
+    </div>
+</article>
       
-     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+     <!-- <hr style="height: 2px; background-color: rgb(24,90,219);"> -->
+      
+     <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="container" data-aos="flip-up"  data-aos-duration="3000">
           <div class="p-5">
 
-            <h2 class = "display-3 text-center mt-1 mb-5 bordered-bottom"><b>Available Labs!</b></h2>
+            <h2 class = "display-3 text-center mt-1 mb-5 bordered-bottom"><b>Available Labs!</b></h2> -->
             <!--<hr style="height: 2px; background-color: rgb(24,90,219);"> -->
 
             
-            <div class="blog row align-items-center justify-content-center">
+            <!-- <div class="blog row align-items-center justify-content-center"> -->
               <!-- blog cards -->
-              <div class="col-sm-12 col-lg-4 btn btn-info">
+              <!-- <div class="col-sm-12 col-lg-4 btn btn-info">
                 <div class = "d-flex flex-column align-items-center justify-content-center mb-4">
-                  <h3 class = "pt-3">Thermodynamics</h3>
-                  <p>Some Text about blog</p>
+                  <h3 class = "pt-3">Dynamics Of Machines</h3>
+                  
                 </div>
-              </div>
-
-              <div class="col-sm-12 col-lg-4 btn btn-warning m-2">
-                <div class = "d-flex flex-column align-items-center justify-content-center mb-4">
-                  <h3 class = "pt-3">Theory Of Machine</h3>
-                  <p>Some Text about blog</p>
-                </div>
-              </div>
-
+              </div> -->
+<!-- 
               <div class="col-sm-12 col-lg-4 btn btn-warning m-2">
                 <div class = "d-flex flex-column align-items-center justify-content-center mb-4">
                   <h3 class = "pt-3">Heat Transfer</h3>
-                  <p>Some Text about blog</p>
+                  <p>Coming Soon...</p>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4 btn btn-warning m-2">
+                <div class = "d-flex flex-column align-items-center justify-content-center mb-4">
+                  <h3 class = "pt-3">Thermodynamics</h3>
+                  <p>Coming Soon...</p> -->
                   
                 </div>
               </div>
@@ -195,23 +258,22 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 text-center">
-                    <h2 class="footer-heading"><a href="#" class="logo">V-Lab</a></h2>
+                    <h2 class="footer-heading"><a href="#" class="logo">Virtaul Labs SGGSIE&T</a></h2>
                     <p class="menu">
-                        <a href="#" class="p-2">Home</a>
-                        <a href="#" class="p-2">Agent</a>
-                        <a href="#" class="p-2">About</a>
-                        <a href="#" class="p-2">Listing</a>
-                        <a href="#" class="p-2">Blog</a>
-                        <a href="#" class="p-2">Contact</a>
-                    </p>
+                        <a href="#" class="p-2">Home |</a>
+                        <a href="#" class="p-2">About |</a>
+                        <a href="#" class="p-2">Labs |</a>
+                        <a href="#" class="p-2">Support |</a>
+                        <a href="#" class="p-2">Contact |</a><br>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a></p>
+                        <p>Copyright &copy; 2022 | Yash Raut | Suyog Moon 
+                          <br>Department of Mechanical Enginnering | SGGSIE&T, Nanded</p>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-12 text-center">
-                    <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-                  Team Mechanical
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            
                 </div>
             </div>
         </div>

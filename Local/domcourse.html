@@ -11,7 +11,9 @@
     <!--Scripts for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Course Page</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Course | DOM</title>
     <link rel = "icon" href = 
     "assets/images/sggs.png" 
             type = "image/x-icon">
@@ -19,7 +21,7 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">SGGSV-Lab</a>
+      <a class="navbar-brand" href="index.html">Virtual Labs</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,10 +35,9 @@
               Select Lab
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="course.html">Heat transfer</a></li>
-              <li><a class="dropdown-item" href="course.html">Manufacturing processes 2</a></li>
-              <li><a class="dropdown-item" href="course.html">Dynamics of Machines (DOM)</a></li>
-              <li><a class="dropdown-item" href="course.html">Design of Machine (DME)</a></li>
+              <li><a class="dropdown-item" href="domcourse.html">Dynamics Of Machine</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Heat Transfer</a></li>
+                  <li><a class="dropdown-item" href="domcourse.html">Thermodynamics</a></li>
               <!-- <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li> -->
             </ul>
@@ -56,7 +57,7 @@
     <div class="container"> 
       <span class="fs-3">Experiment: 1</span>
       <hr style="background-color: #185ADB;">
-      <span class="fs-5"><b>Simple pendulum (To Verify the relation)</b></span><br><br>
+      <span class="fs-5"><b>Simple pendulum (To Verify the relation \(T  = 2π*\sqrt{L/g}\))</b></span><br><br>
       <a href="Subject\DOM\Simple pendulum\Main\SIMPLE PENDULUM.html" class="btn btn-primary">Open Experiment</a><br>
        
     </div>
@@ -130,7 +131,7 @@
     <div class="container">
       <span class="fs-3">Experiment: 10</span>
       <hr style="background-color: #185ADB;">
-      <span class="fs-5"><b>To verify the Dunkerley’s Rule </b>
+      <span class="fs-5"><b>To verify the Dunkerley’s Rule { \(1/F^2 = 1/(F_L)^2 + 1/(F_B)^2\) }</b>
       </span><br><br>
       <a href="Subject\DOM\To verify the Dunkerley’s Rule\Main\To verify the Dunkerley’s Rule.html" class="btn btn-primary">Open Experiment</a><br>
        
@@ -145,42 +146,30 @@
        
     </div>
   </div>
-  <footer style="margin-top: 100px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <center><span class="fs-3"><b>V-Labs SGGSIE&T</b></span></center>
-        <hr>
-        <center><p class="fs-6">
-          &copy; Copyright @2020-21<br> All rights are reserved by SGGSIE&T,<br>Vishnupuri, Nanded, Maharashtra.<br>
-          <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-      </p></center>
+  <footer class="p-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="footer-heading"><a href="#" class="logo">Virtaul Labs SGGSIE&T</a></h2>
+                <p class="menu">
+                    <a href="#" class="p-2">Home |</a>
+                    <a href="#" class="p-2">About |</a>
+                    <a href="#" class="p-2">Labs |</a>
+                    <a href="#" class="p-2">Support |</a>
+                    <a href="#" class="p-2">Contact |</a><br>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a></p>
+                    <p>Copyright &copy; 2022 | Yash Raut | Suyog Moon 
+                      <br>Department of Mechanical Enginnering | SGGSIE&T, Nanded</p>
+            </div>
+        </div>
+        
+            </div>
+        </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <center><span class="fs-3"><b>Created By</b></span></center>
-      <hr>
-      <center><ul style="list-style: none;">
-        <li>Yash Raut</li>
-        <li>Suyog Moon</li>
-        <li>Vedant Totla</li>
-        <li>Irshaduddin Chowdhury</li>
-    </ul></center>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <center><span class="fs-3"><b>Contact Us</b></span></center>
-      <hr>
-      <center><p class="fs-6">
-        Support Mail: V-Labs@sggs.ac.in<br>
-        Call us on: 1234567890<br>
-        <br>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </p></center>
-    </div>
-  </footer>
+</footer>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="assets/scripts/course.js"></script>
